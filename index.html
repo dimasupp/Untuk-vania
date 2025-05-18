@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="icon" type="image/jpg" href="/assets/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="click-heart">
+            <h2>Click The Heart To Open</h2>
+        </div>
+        
+        <div class="envelope">
+            <div class="flap top-flap"></div>
+            <div class="flap right-flap"></div>
+            <div class="heart-seal">❤</div>
+        </div>
+        
+        <div class="music-card">
+            <div class="song-info">
+                <img src="/assets/album cover.jpg" alt="Album Cover" class="album-cover">
+                <div class="song-details">
+                    <h3>pretty</h3>
+                    <p>JVKE</p>
+                </div>
+            </div>
+            <audio id="audio" src="/assets/wish-you-were-sober-lyrics.mp3"></audio>
+            <div class="controls">
+                <button id="prevBtn" class="control-btn">⏮</button>
+                <button id="playBtn" class="control-btn">▶</button>
+                <button id="nextBtn" class="control-btn">⏭</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="timer">
+                <span id="currentTime">0:00</span>
+                <span>/</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        
+        <div class="memories-section">
+            <h2>Memories </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="/pics/1.jpg" alt="Memory 1"></div>
+                <div class="gallery-item"><img src="/pics/2.jpg" alt="Memory 2"></div>
+                <div class="gallery-item"><img src="/pics/3.jpg" alt="Memory 3"></div>
+                <div class="gallery-item"><img src="/pics/4.jpg" alt="Memory 4"></div>
+                <div class="gallery-item"><img src="/pics/5.jpg" alt="Memory 5"></div>
+                <div class="gallery-item"><img src="/pics/6.jpg" alt="Memory 6"></div>
+                <div class="gallery-item"><img src="/pics/7.jpg" alt="Memory 7"></div>
+                <div class="gallery-item"><img src="/pics/8.jpg" alt="Memory 8"></div>
+              
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay">
+        <div class="modal-letter">
+            <button class="close-modal">×</button>
+            <div class="letter">
+                <h1>To my beloved</h1>
+                <div class="letter-content">
+                    <p style="text-align: justify;">Untuk Vania,</p>
+                    <p style="text-align: justify;">Dari awal kita barengan sampai sekarang, perasaanku ke kamu nggak pernah berubah—malah makin dalam. Aku ngerasa hidupku lebih lengkap sejak ada kamu. Kamu tuh kayak rumah buat aku, tempat paling nyaman dan tenang, apapun yang lagi aku rasain.</p>
+                    <p style="text-align: justify;">Aku nggak tahu gimana caranya ngejelasin seberapa besar aku sayang kamu, tapi yang jelas, aku selalu mikirin kamu, selalu pengin kamu bahagia, dan selalu pengin ada di samping kamu. Aku tahu kita nggak selalu sempurna, tapi aku yakin selama kita sama-sama berjuang, semuanya bakal bisa dilewatin bareng.</p>
+                    <p style="text-align: justify;">Terima kasih ya udah mau ada buat aku, sabar sama aku, dan nerima aku apa adanya. Aku cinta kamu banget, dan aku bener-bener bersyukur bisa punya kamu. Selama aku masih ada, cintaku buat kamu nggak akan berubah.
+</p>
+                    <p class="signature">Dengan sepenuh hati,<br>Dimas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
